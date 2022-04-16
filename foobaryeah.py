@@ -29,15 +29,15 @@ class FooBar():
 def convert(i,x,y,z):
     j = 0
     while j < i:
-        j+=1
         print(x[j-1]+y[j-1]+z[j-1])
+        j+=1
 
 def main():
     x = input('input:')
     x = int(x)
     output = FooBar(x)
     foo = output.foo()
-    bar = output.foo()
+    bar = output.bar()
     yeah = output.yeah()
     convert(x,foo,bar,yeah)
 
